@@ -13,7 +13,7 @@ from shopping_cart.models import OrderItem, Order, Transaction
 import datetime
 import stripe
 
-stripe.api_key = 'sk_test_51HknG3Jp0P1XPTqeVYLaAm1rUip0vzLnxCH2YrhZZ9tN8EqhGa1Y9ZVf1vB9W5I9aUjIvEvtOSo03mmk1asW6FUF00u3CEtQDn
+stripe.api_key = 'sk_test_51HknG3Jp0P1XPTqeVYLaAm1rUip0vzLnxCH2YrhZZ9tN8EqhGa1Y9ZVf1vB9W5I9aUjIvEvtOSo03mmk1asW6FUF00u3CEtQDn'
 
 
 def get_user_pending_order(request):
