@@ -6,7 +6,7 @@ from products.models import Product
 
 import stripe
 
-stripe.api_key = 'sk_test_51HknG3Jp0P1XPTqeVYLaAm1rUip0vzLnxCH2YrhZZ9tN8EqhGa1Y9ZVf1vB9W5I9aUjIvEvtOSo03mmk1asW6FUF00u3CEtQDn
+stripe.api_key = 'sk_test_51HknG3Jp0P1XPTqeVYLaAm1rUip0vzLnxCH2YrhZZ9tN8EqhGa1Y9ZVf1vB9W5I9aUjIvEvtOSo03mmk1asW6FUF00u3CEtQDn'
 
 
 class Profile(models.Model):
