@@ -37,7 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\alexc\PycharmProjects\pythonProject2\venv"
+=======
+VIRTUAL_ENV="C:\Users\alexc\PycharmProjects\pythonProject1\Shopping_cart\venv"
+>>>>>>> 74c061954d5e927be4caafbd793e96a50563c265
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

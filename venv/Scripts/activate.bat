@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\alexc\PycharmProjects\pythonProject2\venv
+=======
+set VIRTUAL_ENV=C:\Users\alexc\PycharmProjects\pythonProject1\Shopping_cart\venv
+>>>>>>> 74c061954d5e927be4caafbd793e96a50563c265
 
 if not defined PROMPT set PROMPT=$P$G
 
